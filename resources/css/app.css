@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Jacques Francois', serif;
+    --color-midnight: #1a1d29;
+    --color-charcoal: #3d3f4a;
+    --color-slate: #7d8491;
+    --color-silver: #b1b2b5;
+}
+
