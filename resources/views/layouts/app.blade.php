@@ -21,7 +21,7 @@
 
     <main class="max-w-6xl mx-auto px-6 py-10">
         @if (session('sukses'))
-            <div class="mb-8 bg-midnight text-white px-4 py-2 text-sm">
+            <div id="pesan-sukses" class="mb-8 bg-midnight text-white px-4 py-2 text-sm transition-opacity duration-700">
                 {{ session('sukses') }}
             </div>
         @endif
